@@ -4,3 +4,24 @@
 .req {
     color: OrangeRed;
 }
+
+.image-block {
+    border: 3px solid white;
+    padding: 0;
+    height: 400px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center top !important; 
+}
+
+.image-block > p {
+    height: 100%;
+    padding-top: 300px;
+    display: none;
+}
+
+.image-block:hover > p {  
+    display: block;
+    background-color: rgba(3,3,3,0.5);  
+    color: white;    
+}
