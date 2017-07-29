@@ -11,7 +11,7 @@ $("#contact").submit(function(event){
     var serializedData = $form.serialize();
     
     request = $.ajax({
-        url: "https://hooks.zapier.com/hooks/catch/2245471/9hmndp/",
+        url: "https://hooks.zapier.com/hooks/catch/2245471/90oun0/",
         type: "post",
         data: serializedData
     });
