@@ -1,114 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link rel="icon" href="/favicon.ico">
 
-        <title>Contact | The Graff Crafters</title>
-        <link href="/main.css" rel="stylesheet">
-    </head>
-    <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
 
-        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">The Graff Crafters</a>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projects">Projects</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/contact">Contact Us <span class="sr-only">(current)</span></a>
-                    </li>
-                    </ul>
-                <a class="navbar-brand navbar-right">building bonds through hard work</a>
+  <title>Contact | The Graff Crafters</title>
+  <link href="/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+        <a class="navbar-brand" href="#">The Graff Crafters</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li class="active"><a href="/contact">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <a class="navbar-brand navbar-right">building bonds through hard work</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="page-header">
+      <h1>Contact Us</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <form id="contact">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <h4>First Name <span class="req">*</span></h4>
+              <input type="text" name="firstname" id="firstname" class="form-control" required>
             </div>
-        </nav>
-        
-        <div class="jumbotron">
-            <div class="page-header">
-                <h1>Contact Us</h1>
+            <div class="col-md-6 form-group">
+              <h4>Last Name <span class="req">*</span></h4>
+              <input type="text" name="lastname" id="lastname" class="form-control" required>
             </div>
+          </div>
+          <div class="form-group">
+            <h4>Email <span class="req">*</span></h4>
+            <input type="email" name="email" id="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <h4>Subject <span class="req">*</span></h4>
+            <input type="text" name="subject" id="subject" class="form-control" required>
+          </div>
         </div>
-        
-        <div class="container">
-            <form id="contact">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <h4>First Name <span class="req">*</span></h4>
-                                <input type="text" name="firstname" id="firstname" class="form-control" required>
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <h4>Last Name <span class="req">*</span></h4>
-                                <input type="text" name="lastname" id="lastname" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <h4>Email <span class="req">*</span></h4>
-                            <input type="email" name="email" id="email" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <h4>Subject <span class="req">*</span></h4>
-                            <input type="text" name="subject" id="subject" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">  
-                        <div class="form-group">
-                            <h4>Message <span class="req">*</span></h4>
-                            <textarea name="message" id="message" class="form-control" rows="10" required></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#headsUp">Submit</button>
-                        <input type="submit" class="btn btn-outline-primary btn-lg" value="Submit">
-                    </div>
-                </div>
-            </form>
+        <div class="col-md-6">
+          <div class="form-group">
+            <h4>Message <span class="req">*</span></h4>
+            <textarea name="message" id="message" class="form-control" rows="10" required></textarea>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#headsUp">Submit</button>
+          <input type="submit" class="btn btn-outline-primary btn-lg" value="Submit">
+        </div>
+      </div>
+    </form>
 
-            <hr class="featurette-divider">
-            
-            <div class="modal fade" id="headsUp" tabindex="-1" role="dialog" aria-labelledby="Submission Error" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Heads Up!</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <hr class="featurette-divider">
+
+    <div class="modal fade" id="headsUp" tabindex="-1" role="dialog" aria-labelledby="Submission Error" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Heads Up!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
-                        </div>
-                        <div class="modal-body">
-                            <p>Our submisison form isn't fully working yet. If you have an urgent request, please email <a href="mailto:thegraffcrafters@gmail.com">thegraffcrafters@gmail.com</a>. Sorry!</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <a class="btn btn-primary" href="mailto:thegraffcrafters@gmail.com">Email Now!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <footer>
-                <p class="float-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2017 The Graff Crafters // building bonds through hard work</p>
-            </footer>
-
+          </div>
+          <div class="modal-body">
+            <p>Our submisison form isn't fully working yet. If you have an urgent request, please email <a href="mailto:thegraffcrafters@gmail.com">thegraffcrafters@gmail.com</a>. Sorry!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <a class="btn btn-primary" href="mailto:thegraffcrafters@gmail.com">Email Now!</a>
+          </div>
         </div>
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
-        <script src="submit.js"></script>
-    </body>
+      </div>
+    </div>
+
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2017 The Graff Crafters // building bonds through hard work</p>
+    </footer>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="submit.js"></script>
+</body>
+
 </html>
