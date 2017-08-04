@@ -2,32 +2,59 @@
 @import url("/assets/css/carousel.css");
 
 .req {
-    color: OrangeRed;
+  color: OrangeRed;
 }
 
 .image-block {
-    border: 3px solid white;
-    padding: 0;
-    height: 400px;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center top !important; 
+  border: 3px solid white;
+  padding: 0;
+  height: 400px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center top !important;
 }
 
-.image-block > p {
-    height: 100%;
-    padding-top: 300px;
-    display: none;
+.image-block>p {
+  height: 100%;
+  padding-top: 300px;
+  display: none;
 }
 
-.image-block:hover > p {  
-    display: block;
-    background-color: rgba(3,3,3,0.5);  
-    color: white;    
+.image-block:hover>p {
+  display: block;
+  background-color: rgba(3, 3, 3, 0.5);
+  color: white;
 }
 
 
 .navbar {
-    border-radius:0 !important;
-    margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.logo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  height: 500px;
+  z-index: 1;
+  
+}
+
+.carousel-control {
+  z-index: 2;
+}
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  height: 90%;
+}
+
+.jumbotron h1 {
+  padding: 0 30px;
 }

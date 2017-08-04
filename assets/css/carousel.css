@@ -47,8 +47,9 @@ body {
 .carousel .item {
   height: 500px;
   background-color: #777;
+  /*text-align: center !important;*/
 }
-.carousel-inner > .item > img {
+.carousel-inner > .item > .slides {
   position: absolute;
   top: 0;
   left: 0;
