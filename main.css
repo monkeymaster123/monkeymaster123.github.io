@@ -1,6 +1,142 @@
 @import url("/assets/css/bootstrap.min.css");
 @import url("/assets/css/carousel.css");
 
+/*
+0E1D33
+89C3C7
+*/
+
+.navbar-default {
+  background-color: #0e1d33;
+  border: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #ecf0f1;
+  background-color: #89c3c7;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  color: #ecf0f1;
+  background-color: #89c3c7;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #89c3c7;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #89c3c7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #ecf0f1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #ecf0f1;
+    background-color: #89c3c7;
+  }
+}
+
+.btn-graff {
+  color: #ffffff;
+  background-color: #89C3C7;
+  border-color: #89C3C7;
+}
+
+.btn-graff:hover,
+.btn-graff:focus,
+.btn-graff:active,
+.btn-graff.active,
+.open .dropdown-toggle.btn-graff {
+  color: #ffffff;
+  background-color: #73ACB0;
+  border-color: #89C3C7;
+}
+
+.btn-graff:active,
+.btn-graff.active,
+.open .dropdown-toggle.btn-graff {
+  background-image: none;
+}
+
+.btn-graff.disabled,
+.btn-graff[disabled],
+fieldset[disabled] .btn-graff,
+.btn-graff.disabled:hover,
+.btn-graff[disabled]:hover,
+fieldset[disabled] .btn-graff:hover,
+.btn-graff.disabled:focus,
+.btn-graff[disabled]:focus,
+fieldset[disabled] .btn-graff:focus,
+.btn-graff.disabled:active,
+.btn-graff[disabled]:active,
+fieldset[disabled] .btn-graff:active,
+.btn-graff.disabled.active,
+.btn-graff[disabled].active,
+fieldset[disabled] .btn-graff.active {
+  background-color: #89C3C7;
+  border-color: #89C3C7;
+}
+
+.btn-graff .badge {
+  color: #89C3C7;
+  background-color: #ffffff;
+}
+
 .req {
   color: OrangeRed;
 }
@@ -42,7 +178,7 @@
   background-attachment: fixed;
   height: 500px;
   z-index: 1;
-  
+
 }
 
 .carousel-control {
@@ -57,4 +193,12 @@
 
 .jumbotron h1 {
   padding: 0 30px;
+}
+
+.featurette-heading {
+  color: #0E1D33;
+}
+
+.text-muted {
+  color: #89C3C7;
 }
